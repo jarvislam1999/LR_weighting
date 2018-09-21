@@ -1,0 +1,95 @@
+31-Jul-2018 19:50:16 CEST  Initiating request to open file file:/afs/cern.ch/work/p/pthapa/private/miniAOD_2016/CMSSW_8_0_21/src/GenStudy/weightingAnalyzer/test/RootFilesWeighting/RL13_Con_110_M500_Lamda10000_Test_Tree_Structure_MINIAOD.root
+31-Jul-2018 19:50:18 CEST  Successfully opened file file:/afs/cern.ch/work/p/pthapa/private/miniAOD_2016/CMSSW_8_0_21/src/GenStudy/weightingAnalyzer/test/RootFilesWeighting/RL13_Con_110_M500_Lamda10000_Test_Tree_Structure_MINIAOD.root
+Begin processing the 1st record. Run 1, Event 2, LumiSection 1 at 31-Jul-2018 19:50:19.655 CEST
+
+[ParticleListDrawer] analysing particle collection prunedGenParticles
+ idx  |    ID -       Name |Stat|  Mo1  Mo2  Da1  Da2 |nMo nDa|    pt       eta     phi   |     px         py         pz        m     |
+    0 |  2212 -         p+ |  4 |   -1   -1    2   22 |  0 11 |   0.000  29256.000  0.000 |      0.000      0.000   6500.000    0.938 |
+    1 |  2212 -         p+ |  4 |   -1   -1    3   22 |  0  8 |   0.000 -29256.000  0.000 |      0.000      0.000  -6500.000    0.938 |
+    2 |    -2 -       ubar | 21 |    0    0    4    5 |  1  2 |   0.000  22815.047  0.000 |      0.000      0.000     59.047    0.000 |
+    3 |     2 -          u | 21 |    1    1    4    5 |  1  2 |   0.000 -24931.320  0.000 |      0.000      0.000  -2175.320    0.000 |
+    4 |    13 -        mu- | 23 |    2    3    6    6 |  2  1 | 346.858     -1.546  2.787 |   -325.340    120.270   -776.963    0.106 |
+    5 |   -13 -        mu+ | 23 |    2    3    8    8 |  2  1 | 346.858     -2.061 -0.354 |    325.340   -120.270  -1339.310    0.106 |
+    6 |    13 -        mu- | 44 |    4    4    7   11 |  1  2 | 373.617     -1.590  2.669 |   -332.735    169.931   -877.966    0.106 |
+    7 |    13 -        mu- | 51 |    6    6    9    9 |  1  1 | 373.617     -1.590  2.669 |   -332.735    169.931   -877.966    0.106 |
+    8 |   -13 -        mu+ | 52 |    5    5   10   10 |  1  1 | 333.345     -1.997 -0.266 |    321.588    -87.751  -1204.684    0.106 |
+    9 |    13 -        mu- |  1 |    7    7   -1   -1 |  1  0 | 373.443     -1.587  2.674 |   -333.312    168.411   -874.379    0.106 |
+   10 |   -13 -        mu+ |  1 |    8    8   -1   -1 |  1  0 | 332.710     -2.000 -0.271 |    320.546    -89.140  -1207.316    0.106 |
+   11 |    22 -      gamma |  1 |    6    6   -1   -1 |  1  0 |   0.000     -1.831  2.846 |     -0.000      0.000     -0.000   -0.000 |
+   12 |  2212 -         p+ |  1 |    0    1   -1   -1 |  2  0 |   1.221      4.687  0.612 |      1.000      0.701     66.258    0.938 |
+   13 |     1 -          d | 71 |    1    1   -1   -1 |  1  0 |   5.899     -1.674 -2.913 |     -5.745     -1.338    -15.177    0.330 |
+   14 |  2212 -         p+ |  1 |    0    1   -1   -1 |  2  0 |   0.392     -7.120 -0.892 |      0.246     -0.305   -242.297    0.938 |
+   15 |    21 -          g | 71 |    0    0   19   22 |  1  3 |   6.755     -0.081 -1.603 |     -0.218     -6.752     -0.545   -0.000 |
+   16 |    21 -          g | 71 |    0    0   19   22 |  1  3 |  11.271      0.027 -1.563 |      0.084    -11.270      0.300   -0.000 |
+   17 |    21 -          g | 71 |    0    0   19   22 |  1  3 |  27.780     -0.035 -1.558 |      0.353    -27.778     -0.964   -0.000 |
+   18 |    21 -          g | 71 |    0    0   19   22 |  1  3 |   8.010     -0.071 -1.647 |     -0.607     -7.987     -0.566   -0.000 |
+   19 |  2212 -         p+ |  1 |    0   18   -1   -1 |  6  0 |   0.334      5.696 -2.342 |     -0.233     -0.240     49.716    0.938 |
+   20 |  2212 -         p+ |  1 |    0   18   -1   -1 |  6  0 |   1.195      0.909  2.728 |     -1.095      0.480      1.243    0.938 |
+   21 |  2212 -         p+ |  1 |    0    1   -1   -1 |  2  0 |   0.330      1.447  2.575 |     -0.279      0.177      0.663    0.938 |
+   22 |  2212 -         p+ |  1 |    0   18   -1   -1 |  6  0 |   0.426      5.640  1.231 |      0.142      0.402     59.965    0.938 |
+-- decay tree: --
+p+
++-> ubar
+|   +-> mu-
+|   |   +-> mu-
+|   |       +-> mu-
+|   |       |   +-> mu-
+|   |       +-> gamma
+|   +-> mu+
+|       +-> mu+
+|           +-> mu+
++-> p+
++-> p+
++-> g
+|   +-> p+ p+ p+
++-> g
+|   +-> p+ p+ p+
++-> g
+|   +-> p+ p+ p+
++-> g
+|   +-> p+ p+ p+
++-> p+
++-> p+
++-> p+
++-> p+
+-- decay tree: --
+p+
++-> u
+|   +-> mu-
+|   |   +-> mu-
+|   |       +-> mu-
+|   |       |   +-> mu-
+|   |       +-> gamma
+|   +-> mu+
+|       +-> mu+
+|           +-> mu+
++-> p+
++-> d
++-> p+
++-> p+
++-> p+
++-> p+
++-> p+
+>>> processing event # run: 1 lumi: 1 event: 2 time 10000001
+31-Jul-2018 19:50:23 CEST  Closed file file:/afs/cern.ch/work/p/pthapa/private/miniAOD_2016/CMSSW_8_0_21/src/GenStudy/weightingAnalyzer/test/RootFilesWeighting/RL13_Con_110_M500_Lamda10000_Test_Tree_Structure_MINIAOD.root
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 AsciiOut             -s AsciiOutputModul                       1        1
+    2 fileAction           -s file_close                             1        1
+    3 fileAction           -s file_open                              2        2
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 AsciiOut             1/2                               
+    2 fileAction           PostEndRun                        
+    3 fileAction           pre-events       pre-events       
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+System                  4                   4
+>>> processed 1 events
